@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9501cf70-c269-49a0-9719-36ff17a6af97" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cug/leetcode/Knapsack01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cug/leetcode/Knapsack01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cug/leetcode/mianshijindian/Demo0501.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cug/leetcode/mianshijindian/Demo0501.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +80,13 @@
       <recent name="E:\workspace\src\main\java\com\cug" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main2">
-    <configuration name="Main1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cug.qiuzhao.tencent.Main1" />
+  <component name="RunManager" selected="Application.Main3">
+    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cug.qiuzhao.huawei.Main1" />
       <module name="workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cug.qiuzhao.tencent.*" />
+          <option name="PATTERN" value="com.cug.qiuzhao.huawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,6 +100,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cug.qiuzhao.xiaomi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cug.qiuzhao.huawei.Main2" />
+      <module name="workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cug.qiuzhao.huawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,24 +134,11 @@
       </method>
     </configuration>
     <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cug.qiuzhao.tencent.Main3" />
+      <option name="MAIN_CLASS_NAME" value="com.cug.qiuzhao.huawei.Main3" />
       <module name="workspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cug.qiuzhao.tencent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cug.qiuzhao.tencent.Main4" />
-      <module name="workspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cug.qiuzhao.tencent.*" />
+          <option name="PATTERN" value="com.cug.qiuzhao.huawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,20 +225,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main1 (2)" />
-      <item itemvalue="Application.Main3" />
-      <item itemvalue="Application.Main4" />
-      <item itemvalue="JUnit.TestNonBlockingNIO.client" />
       <item itemvalue="Application.Main1" />
       <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main1 (1)" />
+      <item itemvalue="Application.Main2 (1)" />
+      <item itemvalue="Application.Main3" />
+      <item itemvalue="JUnit.TestNonBlockingNIO.client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main2 (1)" />
+        <item itemvalue="Application.Main1 (1)" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main1 (2)" />
-        <item itemvalue="Application.Main4" />
-        <item itemvalue="Application.Main3" />
       </list>
     </recent_temporary>
   </component>
@@ -370,6 +372,10 @@
       <workItem from="1598596995130" duration="627000" />
       <workItem from="1599394541515" duration="7346000" />
       <workItem from="1599559151919" duration="6585000" />
+      <workItem from="1599644945436" duration="7624000" />
+      <workItem from="1599655238859" duration="1996000" />
+      <workItem from="1599702641773" duration="6351000" />
+      <workItem from="1599723839231" duration="2368000" />
     </task>
     <servers />
   </component>
@@ -385,6 +391,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595753445125" />
+    <state x="692" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599729585777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="692" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599729585777" />
     <state x="704" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1595753891555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -397,46 +407,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="684" y="359" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599566058142" />
-    <state width="1877" height="244" key="GridCell.Tab.0.bottom" timestamp="1599564346169">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1599655223105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1599400595922" />
-    <state width="1877" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599564346169" />
-    <state width="1877" height="244" key="GridCell.Tab.0.center" timestamp="1599564346169">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599655223105" />
+    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1599655223105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="244" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1599400595922" />
-    <state width="1877" height="244" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599564346169" />
-    <state width="1877" height="244" key="GridCell.Tab.0.left" timestamp="1599564346169">
+    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599655223105" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1599655223105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="244" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1599400595922" />
-    <state width="1877" height="244" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599564346169" />
-    <state width="1877" height="244" key="GridCell.Tab.0.right" timestamp="1599564346169">
+    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599655223105" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1599655223105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="244" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1599400595922" />
-    <state width="1877" height="244" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599564346169" />
-    <state width="1877" height="294" key="GridCell.Tab.1.bottom" timestamp="1599406622681">
+    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599655223105" />
+    <state width="1877" height="294" key="GridCell.Tab.1.bottom" timestamp="1599655223105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="294" key="GridCell.Tab.1.bottom/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1599400528848" />
-    <state width="1877" height="294" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599406622681" />
-    <state width="1877" height="294" key="GridCell.Tab.1.center" timestamp="1599406622680">
+    <state width="1877" height="294" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599655223105" />
+    <state width="1877" height="294" key="GridCell.Tab.1.center" timestamp="1599655223105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="294" key="GridCell.Tab.1.center/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1599400528848" />
-    <state width="1877" height="294" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599406622680" />
-    <state width="1877" height="294" key="GridCell.Tab.1.left" timestamp="1599406622680">
+    <state width="1877" height="294" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599655223105" />
+    <state width="1877" height="294" key="GridCell.Tab.1.left" timestamp="1599655223105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="294" key="GridCell.Tab.1.left/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1599400528848" />
-    <state width="1877" height="294" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599406622680" />
-    <state width="1877" height="294" key="GridCell.Tab.1.right" timestamp="1599406622681">
+    <state width="1877" height="294" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599655223105" />
+    <state width="1877" height="294" key="GridCell.Tab.1.right" timestamp="1599655223105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="294" key="GridCell.Tab.1.right/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1599400528848" />
-    <state width="1877" height="294" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599406622681" />
+    <state width="1877" height="294" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599655223105" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1595753546112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -445,11 +455,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="393" y="144" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595754640371" />
-    <state x="92" y="-988" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599399255393">
-      <screen x="0" y="-1080" width="1920" height="1040" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599709916345">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="-988" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1599399255393" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598089871168" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599709916345" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1598534770713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -458,10 +468,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="274" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596269590698" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1599563550090">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1599730228515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599563550090" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599730228515" />
     <state x="623" y="-855" width="672" height="678" key="search.everywhere.popup" timestamp="1599395820878">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
@@ -754,6 +764,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cug/qiuzhao/huawei/Main2.java</url>
+          <line>26</line>
+          <properties class="com.cug.qiuzhao.huawei.Main2" method="maxShuigou">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="173" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
