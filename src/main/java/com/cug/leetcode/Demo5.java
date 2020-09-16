@@ -2,7 +2,7 @@ package com.cug.leetcode;
 
 public class Demo5 {
     public String longestPalindrome(String s) {
-        
+        //最长回文子串
         int n = s.length();
         boolean[][] dp = new boolean[n][n];
         String ans = "";
