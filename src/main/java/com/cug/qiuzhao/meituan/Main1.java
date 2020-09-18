@@ -9,6 +9,7 @@ public class Main1 {
         root.left = new TreeNode(1);
         root.right = new TreeNode(2);
         infixOrder(root);
+
     }
     static class TreeNode{
         TreeNode left;
