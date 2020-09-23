@@ -42,4 +42,25 @@ public class Question199 {
         }
         return ret;
     }
+    public List<Integer> rightSideView2(TreeNode root) {
+        List<Integer> ret = new ArrayList<>();
+        List<TreeNode> cur = new ArrayList<>();
+        if(root == null)
+            return ret;
+        cur.add(root);
+        while(!cur.isEmpty()){
+            List<TreeNode> temp = new ArrayList<>();
+            int n = cur.size();
+            ret.add(cur.get(n-1).val);
+            for(int i=0;i<n;i++){
+                TreeNode node = cur.get(i);
+                if(node.left!=null)
+                    temp.add(node.left);
+                if(node.right!=null)
+                    temp.add(node.right);
+            }
+            cur = temp;
+        }
+        return ret;
+    }
 }

@@ -20,7 +20,6 @@ public class ProxyDemo  {
                         return "".equals(SaleComputer.COMPUTERS.get(0)) ? "没有电脑" : SaleComputer.COMPUTERS.get(0);
                     }
                     return null;
-
                 }));
         proxyInstance.sale("8000");
         System.out.println(proxyInstance.show());
