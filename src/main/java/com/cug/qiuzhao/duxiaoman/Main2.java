@@ -1,6 +1,7 @@
 package com.cug.qiuzhao.duxiaoman;
 
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Main2 {
@@ -18,6 +19,7 @@ public class Main2 {
             }
             System.out.println(walkOut(chars));
         }
+        
     }
     static int[][] move = {{0,1},{0,-1},{1,0},{-1,0}};
     static int walkOut(char[][] chars){
